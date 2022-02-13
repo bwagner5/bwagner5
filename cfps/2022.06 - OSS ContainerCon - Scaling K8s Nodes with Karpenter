@@ -1,0 +1,23 @@
+# Scaling K8s Nodes with Karpenter
+
+## Conference
+Open Source Summit + Container Con (Austin, Texas)
+
+## Abstract
+Managing the infrastructure for a Kubernetes (k8s) cluster can be challenging 
+when your pods require diverse node-level requirements such as GPUs, Persistent 
+Volumes, purchase options (spot/preemptible), and many more. Karpenter is a new 
+k8s node-autoscaler that aims to simplify provisioning VM capacity by offering a 
+k8s native API via a Custom Resource Definition (CRD). In this session, we'll walk 
+thru managing a cluster with Karpenter and how it can power a diverse set of 
+workload requirements with its simple API. 
+
+## Describe audience
+Engineers who manage cluster infrastructure
+
+## Why this talk
+Karpenter is a k8s node autoscaler that can simplify managing a cluster with diverse workloads 
+compared to a similar setup with Cluster Autoscaler. 
+
+## Status
+Submitted
