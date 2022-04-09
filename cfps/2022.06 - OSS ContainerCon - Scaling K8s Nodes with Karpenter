@@ -20,4 +20,4 @@ Karpenter is a k8s node autoscaler that can simplify managing a cluster with div
 compared to a similar setup with Cluster Autoscaler. 
 
 ## Status
-Accepted (https://sched.co/ytqR)
+Submitted
