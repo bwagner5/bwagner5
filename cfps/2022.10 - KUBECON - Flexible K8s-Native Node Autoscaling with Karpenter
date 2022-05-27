@@ -1,0 +1,25 @@
+# Flexible K8s-Native Node Autoscaling with Karpenter
+
+## Conference
+KubeCon + CloudNativeCon NA (Detroit)
+
+## Abstract
+As more workloads move to K8s clusters, the more complicated node provisioning becomes. 
+Workloads increasingly require specific compute, networking, GPU, or storage capabilities from nodes. 
+It can be challenging to setup the necessary scaling groups to make sure that workloads running on your 
+K8s cluster have access to the right VMs and can scale the capacity up quickly when needed. Karpenter is 
+a new open source project that embraces group-less node autoscaling which can decrease the operational 
+burden of managing cloud specific groups of VMs segmented by different capabilities like GPUs and storage. 
+Brandon will show how Karpenter's K8s-native approach to node provisioning with the Provisioner CRD can 
+help to achieve more efficient node utilization and less externally managed infrastructure. 
+
+## Describe audience
+Engineers who want to scale their K8s nodes
+
+## Why this talk
+Node autoscaling is complicated, especially as more demanding workloads migrate to K8s.
+Karpenter is a new open source K8s node autoscaler that aims to make node autoscaling
+simpler and more K8s native.
+
+## Status
+Submitted
